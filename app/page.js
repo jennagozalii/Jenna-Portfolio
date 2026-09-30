@@ -135,7 +135,7 @@ export default function Home() {
           like to hear from you.
         </p>
         <p className="hero-links">
-          <a className="button" href={`mailto:${profile.email}`}>{profile.email}</a>
+          <a className="button" href={`mailto:${profile.email}`}>Email me</a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           <a href={profile.github} target="_blank" rel="noreferrer">GitHub</a>
         </p>
