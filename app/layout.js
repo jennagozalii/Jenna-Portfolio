@@ -37,17 +37,6 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         <main id="main">{children}</main>
-        <footer className="site-footer">
-          <div className="wrap footer-inner">
-            <p>
-              The bootcamp case studies use real companies as examples. The ideas and numbers are my own or
-              illustrative, and I'm not affiliated with any of these companies.
-            </p>
-            <p>
-              <a href={`mailto:${profile.email}`}>{profile.email}</a>
-            </p>
-          </div>
-        </footer>
       </body>
     </html>
   );
